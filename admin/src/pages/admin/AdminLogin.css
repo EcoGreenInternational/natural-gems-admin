@@ -1,0 +1,134 @@
+.admin-login-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f8f6f2 0%, #eee8dc 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.admin-login-card {
+  background: #fff;
+  border-radius: 20px;
+  padding: 48px 40px;
+  width: 100%;
+  max-width: 420px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.admin-login-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 32px;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+  font-family: var(--font-serif);
+}
+
+.logo-natural {
+  font-size: 16px;
+  font-style: italic;
+  color: var(--gold);
+}
+
+.logo-gems {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--dark);
+  letter-spacing: 2px;
+}
+
+.logo-diamond {
+  font-size: 24px;
+  color: var(--gold);
+}
+
+.admin-login-card h2 {
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.login-sub {
+  font-size: 14px;
+  color: var(--text-light);
+  margin-bottom: 32px;
+}
+
+.login-error {
+  background: #ffeaea;
+  color: #c0392b;
+  border: 1px solid #f5c6c6;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: left;
+}
+
+.login-field label {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--text-light);
+  margin-bottom: 8px;
+}
+
+.login-field input {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font-family: var(--font-sans);
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.login-field input:focus {
+  border-color: var(--gold);
+}
+
+.login-btn {
+  padding: 14px;
+  background: var(--blue-btn);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-family: var(--font-sans);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: background 0.2s;
+  margin-top: 8px;
+}
+
+.login-btn:hover:not(:disabled) {
+  background: var(--gold);
+}
+
+.login-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.login-footer {
+  margin-top: 32px;
+  font-size: 11px;
+  color: #bbb;
+}
